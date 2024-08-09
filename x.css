@@ -1,0 +1,147 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgba(255, 200, 255, 0.5);
+    text-align: center;
+    color: rgb(31, 10, 31);
+}
+
+header{
+    background-color: rgba(223, 31, 223, 0.75);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 1rem;
+    justify-content: center;
+    color: rgb(255, 225, 255);
+    font-size: 4.5vmin;
+    font-family: Cambria, Cochin, Georgia, Times, serif;
+    width: 100%;
+    font-weight: 550;
+}
+
+.intro{
+    font-family:'Lucida Sans', 'Lucida Sans Regular';
+}
+
+.main_area{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game_area{
+    height: 55vmin;
+    width: 55vmin;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-content: space-around;
+    align-items: center;
+    gap: 1vmin;
+    margin: 3vmin;
+}
+
+div{
+    background-color: rgba(223, 127, 223, 0.1);
+    border: 0.5vmin solid rgba(223, 31, 223, 0.75);
+    height: 30%;
+    width: 30%;
+    border-radius: 1rem;
+    box-shadow: 0 0 1rem rgba(255,255,255,0.5);
+    font-size: 7vmin;
+    align-content: center;
+}
+
+.go_home{
+    display: inline-block;
+    background-color: rgba(223, 127, 223, 0.1);
+    border: 0.5vmin solid rgba(223, 31, 223, 0.75);
+    height: 4vmin;
+    width: 13vmin;
+    border-radius: 0.5vmin;
+    box-shadow: 0 0 1rem rgba(255,255,255,0.5);
+    font-size: 3vmin;
+    align-content: center;
+    margin: 5vmin;
+}
+
+a{
+    text-decoration: none;
+    color: rgb(31, 10, 31);
+}
+
+#play_title{
+    font-size: 150%;
+}
+
+
+.game_play{
+    border: 1vmin solid rgba(223, 31, 223, 0.75);
+    border-block-style: groove;
+    font-size: 3vmin;
+    font-family:Cambria;
+    margin: 15vmin;
+    margin-top: 5vmin;
+    padding: 5vmin;
+    padding-top: 1.5vmin;
+    padding-bottom: 0.5vmin;
+}
+
+#edit1{
+    margin:1vmin;
+}
+
+.game_over{
+    margin:2vmin;
+}
+
+#tie{
+    font-size: 10vmin;
+    margin: 3vmin;
+}
+
+.result{
+    font-size: 7vmin;
+}
+
+#win{
+    font-size: 10vmin;
+    font-family: 'Georgia', 'serif';
+}
+
+#reset{
+    background-color: rgba(223, 127, 223, 0.1);
+    padding:0.75rem;
+    border-radius: 1rem;
+    border-color: rgba(223, 31, 223, 0.75);
+}
+
+hr{
+    display: block;
+    width: 100%;
+    border: 0.5px solid rgb(223, 63, 223);
+    margin: 0.25px;
+}
+  
+footer{
+    text-align: left;
+    bottom: 1px;
+}
+  
+@media (max-height: 600px) {
+    footer{
+        text-align: left;
+        position: relative;
+        bottom: 1px;
+    }
+}
+  
+a{
+    color: rgb(31, 10, 31);
+    text-decoration: none;
+    font-weight: 500;
+}
